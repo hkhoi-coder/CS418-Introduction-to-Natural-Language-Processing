@@ -1,0 +1,130 @@
+\documentclass[a4paper]{article}
+
+\usepackage{listings}
+\usepackage{array}
+
+\begin{document}
+
+% TODO: put your information here
+\author{Hoang Khoi \\ Student ID: 1351026} % change this
+\title{CS418\\Homework 01}
+\maketitle
+
+\pagenumbering{roman}
+
+\setcounter{page}{1}
+\tableofcontents
+\pagenumbering{arabic}
+
+\clearpage
+
+% Start your report here
+
+\section{Question 1}
+Write regular expressions by using Perl notation for the following languages.
+By `word', we mean an alphabetic string separated from other words by white space, any relevant punctuation, line breaks, etc.
+\begin{enumerate}
+\item the set of all alphabetic strings;
+\item the set of all lower case alphabetic strings ending in a \textit{b};
+\item the set of all strings with two consecutive repeated words (for example ``Humbert Humbert'' and ``the the'' but not ``the bug'' or ``the big bug'');
+\item the set of all strings from the alphabet \textit{a,b} such that each \textit{a} is immediately preceded by and immediately followed by a \textit{b};
+\item all strings which start at the beginning of the line with an integer (i.e. 1,2,3...10...10000...) and which end at the end of the line with a word;
+\item all strings which have both the word \textit{grotto} and the word \textit{raven} in them (but not, for example, words like \textit{grottos} that merely contain the word \textit{grotto});
+\item write a pattern that places the first word of an English sentence in a register. 
+Deal with punctuation.
+\end{enumerate}
+
+% TODO: write your answer below
+\textbf{Your answer:}
+\begin{enumerate}
+\item \verb|[A-Za-z]+|
+\item \verb|[a-z]*b|
+\item \verb|(\b\w+\b)\s+\b\1\b|
+\item \verb|(b+(ab)+)+|
+\item \verb|^\d+.*[A-Za-z]+$|
+\item \verb\(.*grotto.*raven.*|.*raven.*grotto.*)\
+\item \verb|^[^A-Za-z]*([A-Za-z])+|
+\end{enumerate}
+
+\section{Question 2}
+Implement an ELIZA-like program, using substitutions such as those described in slide (01 Regular Expressions). 
+You may choose a different domain than a Rogerian psychologist, if you wish, although keep in mind that you would need a domain in which your
+program can legitimately engage in a lot of simple repetition.\\
+
+% TODO: write your answer below
+\textbf{Your answer:}
+\lstinputlisting[language=Python]{ex2.py}
+
+\section{Question 3}
+(Thanks to Pauline Welby; this problem probably requires the ability to knit.)
+Write a regular expression that matches all knitting patterns for scarves with the following specification: \textit{32 stitches wide, K1P1 ribbing on both ends, stockinette stitch body, exactly two raised stripes}. 
+All knitting patterns must include a cast-on row (to put the correct number of stitches on the needle) and a bind-off row (to end the pattern and prevent unraveling). 
+Here’s a sample pattern for one possible scarf matching the above description 
+\footnote{\textit{Knit} and \textit{purl} are two different types of stitches.
+The notation K\textit{n} means do \textit{n} knit stitches.
+Similarly for purl stitches. Ribbing has a striped texture --- most sweaters have ribbing at the sleeves, bottom, and neck.
+Stockinette stitch is a series of knit and purl rows that produces a plain pattern --- socks or stockings are knit with this basic pattern, hence the name.} :\\
+
+\begin{tabular}{l>{\itshape}l}
+1. Cast on 32 stitches. &cast on; puts stitches on needle\\
+2. K1 P1 across row (i.e., do (K1 P1) 16 times). &K1P1 ribbing\\
+3. Repeat instruction 2 seven more times. &adds length\\
+4. K32, P32. &stockinette stitch\\
+5. Repeat instruction 4 an additional 13 times. &adds length\\
+6. P32, P32. &raised stripe stitch\\
+7. K32, P32. &stockinette stitch\\
+8. Repeat instruction 7 an additional 251 times. &adds length\\
+9. P32, P32. &raised stripe stitch\\
+10. K32, P32. &stockinette stitch\\
+11. Repeat instruction 10 an additional 13 times. &adds length\\
+12. K1 P1 across row. &K1P1 ribbing\\
+13. Repeat instruction 12 an additional 7 times. &adds length\\
+14. Bind off 32 stitches. &binds off row: ends pattern\\
+\end{tabular}\\
+
+\textbf{Your answer:\\}
+%In the expression below, C stands for cast on, K stands for knit, P stands for purl and B stands for bind off.
+C\{32\}\\
+((KP)\{16\})+\\
+(K\{32\}P\{32\})+\\
+P\{32\}P\{32\}\\
+(K\{32\}P\{32\})+\\
+P\{32\}P\{32\}\\
+(K\{32\}P\{32\})+\\
+((KP)\{16\})+\\
+B\{32\}\\
+
+\section{Question 4}
+Computing minimum edit distances by hand, figure out whether \textit{drive} is closer to \textit{brief} or to \textit{divers} and what the edit distance is.
+You use 1--insertion, 1--deletion, 2--substitution costs.\\
+
+\textbf{Your answer:}
+\begin{itemize}
+\item Distance between \textit{drive} and \textit{brief} is: 4
+\item Distance between \textit{drive} and \textit{divers} is: 2
+\item Thus, \textit{drive} is closer to: \textit{drivers}
+\end{itemize}
+
+\section{Question 5}
+Now implement a minimum edit distance algorithm and use your hand-computed results to check your code.\\
+
+\textbf{Your answer:}
+
+\lstinputlisting[language=Python]{ex5.py}
+
+\section{Question 6}
+Augment the minimum edit distance algorithm to output an alignment; you will need to store pointers and add a stage to compute the backtrace.\\
+
+\textbf{Your answer:}
+
+\lstinputlisting[language=Python]{ex6.py}
+
+\clearpage
+
+\end{document}
+
+
+
+
+
+
