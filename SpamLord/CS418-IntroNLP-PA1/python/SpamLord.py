@@ -6,7 +6,11 @@ import os
 import re
 import pprint
 
-email_pattern = r'([\w\.]+) ?@ ?([\w\.]+)\.([\.\w]+).|<address>([\w\.]+) WHERE ([\w\.]+) DOM ([\w.]+)|(\w+ at \w+ dot [dot (\w+)]*)'
+# hkhoi@outlook.com
+email_pattern0 = r'([\w\.]+) ?@ ?(\w+(\.\w+)+)'     # hkhoi@outlook.com
+email_pattern1 = r'(\w+) WHERE (\w+) DOM (\w+)'     # hkhoi WHERE outlook DOM edu
+email_pattern2 = r'(\w+ at \w+( dot \w+)+)'         # hkhoi at outlook dot com
+
 phone_pattern = r'\D\(?(\d{3})\)?-? ?(\d{3})-(\d{4})'
 
 """ 
@@ -35,30 +39,28 @@ def process_file(name, f):
     # sys.stderr.write('[process_file]\tprocessing file: %s\n' % (path))
     res = []
     for line in f:
-        email_matches = re.findall(email_pattern,line)
+        email_matches0 = re.findall(email_pattern0,line)
+        email_matches1 = re.findall(email_pattern1, line)
+        email_matches2 = re.findall(email_pattern2, line)
+
+        # Pattern 0:
+        for m in email_matches0:
+            email = '%s@%s' % m[0:2]
+            res.append((name, 'e', email))
+        # Pattern 1:
+        for m in email_matches1:
+            email = '%s@%s.%s' % m
+            res.append((name, 'e', email))
+        # Pattern 2:
+        for m in email_matches2:
+            # print 'DEBUG:', m
+            email = m[0].replace('at', '@').replace('dot', '.').replace(' ', '')
+            res.append((name, 'e', email))
+            # print 'DEBUG:', email
+            # res.append((name, 'e', email))
+
         phone_matches = re.findall(phone_pattern, line)
-
-        for m in email_matches:
-        	# #debug:
-        	# if name == 'hager':
-        	# 		print 'DEBUG: ', m
-        	if 'dot' in m[6]:
-        		email = m[6].replace('at','@').replace('dot','.').replace(' ','')
-        		#debug:
-        		print "DEBUG: ", email
-        		res.append((name, 'e', email))
-        	else:
-	        	if m[0]:
-	            		email = '%s@%s.%s' % m[:3]
-	            		res.append((name,'e',email))
-	    		else:
-	    			email = '%s@%s.%s' % m[3:6]
-	            	res.append((name,'e',email))
-    	for p in phone_matches:
-    		phone = '%s-%s-%s' % p[:3]
-    		res.append((name, 'p', phone))
     return res
-
 """
 You should not need to edit this function, nor should you alter
 its interface as it will be called directly by the submit script

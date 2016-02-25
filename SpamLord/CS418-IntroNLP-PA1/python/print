@@ -1,0 +1,846 @@
+debug: ('kosecka', 'cs.gmu', 'edu', '', '', '', '', '', '')
+debug: ('kosecka', 'cs.gmu', 'edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', '', 'lam at cs.stanford.edu', '.edu')
+debug: ('eroberts', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('eroberts', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford', 'edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford', 'edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford', 'edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford', 'edu', '', '', '', '', '', '')
+debug: ('ullman', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford', 'edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford', 'edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford', 'edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford', 'edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', '', 'jks at robotics;stanford;edu', ';edu')
+debug: ('', '', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('engler', 'lcs.mit', 'edu', '', '', '', '', '', '')
+debug: ('', '', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('', '', '', '', '', '', '', 'Server at cs.stanford.edu', '.edu')
+debug: ('', '', '', '', '', '', 'hager at cs dot jhu dot edu', '', '')
+debug: ('ashishg', 'stanford', 'edu', '', '', '', '', '', '')
+debug: ('rozm', 'stanford', 'edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('dabo', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford', 'edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford', 'edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford', 'edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford', 'edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', '', 'Server at infolab.stanford.edu', '.edu')
+debug: ('', '', '', '', '', '', '', 'Science at U.C', '.C')
+debug: ('', '', '', '', '', '', 'vladlen at stanford dot edu', '', '')
+debug: ('siroker', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('widom', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford', 'edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford', 'edu', '', '', '', '', '', '')
+True Positives (45): 
+set([('ashishg', 'p', '650-723-1614'),
+     ('ashishg', 'p', '650-723-4173'),
+     ('ashishg', 'p', '650-814-1478'),
+     ('dabo', 'p', '650-725-3897'),
+     ('dabo', 'p', '650-725-4671'),
+     ('hager', 'p', '410-516-5521'),
+     ('hager', 'p', '410-516-5553'),
+     ('hager', 'p', '410-516-8000'),
+     ('hanrahan', 'p', '650-723-0033'),
+     ('hanrahan', 'p', '650-723-8530'),
+     ('horowitz', 'p', '650-725-3707'),
+     ('horowitz', 'p', '650-725-6949'),
+     ('kosecka', 'p', '703-993-1710'),
+     ('kosecka', 'p', '703-993-1876'),
+     ('kunle', 'p', '650-723-1430'),
+     ('kunle', 'p', '650-725-3713'),
+     ('kunle', 'p', '650-725-6949'),
+     ('lam', 'p', '650-725-3714'),
+     ('lam', 'p', '650-725-6949'),
+     ('latombe', 'p', '650-721-6625'),
+     ('latombe', 'p', '650-723-0350'),
+     ('latombe', 'p', '650-723-4137'),
+     ('latombe', 'p', '650-725-1449'),
+     ('levoy', 'p', '650-723-0033'),
+     ('levoy', 'p', '650-724-6865'),
+     ('levoy', 'p', '650-725-3724'),
+     ('levoy', 'p', '650-725-4089'),
+     ('nass', 'p', '650-723-5499'),
+     ('nass', 'p', '650-725-2472'),
+     ('nick', 'p', '650-725-4727'),
+     ('ok', 'p', '650-723-9753'),
+     ('ok', 'p', '650-725-1449'),
+     ('rajeev', 'p', '650-723-4377'),
+     ('rajeev', 'p', '650-723-6045'),
+     ('rajeev', 'p', '650-725-4671'),
+     ('thm', 'p', '650-725-3383'),
+     ('thm', 'p', '650-725-3636'),
+     ('thm', 'p', '650-725-3938'),
+     ('widom', 'p', '650-723-0872'),
+     ('widom', 'p', '650-723-7690'),
+     ('widom', 'p', '650-725-2588'),
+     ('zelenski', 'p', '650-723-6092'),
+     ('zelenski', 'p', '650-725-8596'),
+     ('zm', 'p', '650-723-4364'),
+     ('zm', 'p', '650-725-4671')])
+False Positives (0): 
+set([])
+False Negatives (42): 
+set([('ashishg', 'e', 'ashishg@stanford.edu'),
+     ('ashishg', 'e', 'rozm@stanford.edu'),
+     ('dabo', 'e', 'dabo@cs.stanford.edu'),
+     ('dlwh', 'e', 'dlwh@stanford.edu'),
+     ('engler', 'e', 'engler@lcs.mit.edu'),
+     ('engler', 'e', 'engler@stanford.edu'),
+     ('eroberts', 'e', 'eroberts@cs.stanford.edu'),
+     ('eroberts', 'p', '650-723-3642'),
+     ('eroberts', 'p', '650-723-6092'),
+     ('fedkiw', 'e', 'fedkiw@cs.stanford.edu'),
+     ('hager', 'e', 'hager@cs.jhu.edu'),
+     ('hanrahan', 'e', 'hanrahan@cs.stanford.edu'),
+     ('jks', 'e', 'jks@robotics.stanford.edu'),
+     ('jurafsky', 'e', 'jurafsky@stanford.edu'),
+     ('jurafsky', 'p', '650-723-5666'),
+     ('kosecka', 'e', 'kosecka@cs.gmu.edu'),
+     ('kunle', 'e', 'darlene@csl.stanford.edu'),
+     ('kunle', 'e', 'kunle@ogun.stanford.edu'),
+     ('lam', 'e', 'lam@cs.stanford.edu'),
+     ('latombe', 'e', 'asandra@cs.stanford.edu'),
+     ('latombe', 'e', 'latombe@cs.stanford.edu'),
+     ('latombe', 'e', 'liliana@cs.stanford.edu'),
+     ('levoy', 'e', 'ada@graphics.stanford.edu'),
+     ('levoy', 'e', 'melissa@graphics.stanford.edu'),
+     ('nass', 'e', 'nass@stanford.edu'),
+     ('nick', 'e', 'nick.parlante@cs.stanford.edu'),
+     ('ouster', 'e', 'ouster@cs.stanford.edu'),
+     ('ouster', 'e', 'teresa.lynn@stanford.edu'),
+     ('pal', 'e', 'pal@cs.stanford.edu'),
+     ('pal', 'p', '650-725-9046'),
+     ('psyoung', 'e', 'patrick.young@stanford.edu'),
+     ('thm', 'e', 'pkrokel@stanford.edu'),
+     ('ullman', 'e', 'support@gradiance.com'),
+     ('ullman', 'e', 'ullman@cs.stanford.edu'),
+     ('ullman', 'p', '650-494-8016'),
+     ('ullman', 'p', '650-725-2588'),
+     ('ullman', 'p', '650-725-4802'),
+     ('vladlen', 'e', 'vladlen@stanford.edu'),
+     ('widom', 'e', 'siroker@cs.stanford.edu'),
+     ('widom', 'e', 'widom@cs.stanford.edu'),
+     ('zelenski', 'e', 'zelenski@cs.stanford.edu'),
+     ('zm', 'e', 'manna@cs.stanford.edu')])
+Summary: tp=45, fp=0, fn=42
+debug: ('kosecka', 'cs.gmu.edu', '', '', '', '', '', '')
+debug: ('kosecka', 'cs.gmu.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'lam at cs.stanford.edu', '.edu')
+debug: ('eroberts', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('eroberts', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford.edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford.edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford.edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford.edu', '', '', '', '', '', '')
+debug: ('ullman', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford.edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford.edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford.edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford.edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'jks at robotics;stanford;edu', ';edu')
+debug: ('', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('engler', 'lcs.mit.edu', '', '', '', '', '', '')
+debug: ('', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('', '', '', '', '', '', 'Server at cs.stanford.edu', '.edu')
+debug: ('', '', '', '', '', 'hager at cs dot jhu dot edu', '', '')
+debug: ('ashishg', 'stanford.edu', '', '', '', '', '', '')
+debug: ('rozm', 'stanford.edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('dabo', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'Server at infolab.stanford.edu', '.edu')
+debug: ('', '', '', '', '', '', 'Science at U.C', '.C')
+debug: ('', '', '', '', '', 'vladlen at stanford dot edu', '', '')
+debug: ('siroker', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('widom', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford.edu', '', '', '', '', '', '')
+True Positives (45): 
+set([('ashishg', 'p', '650-723-1614'),
+     ('ashishg', 'p', '650-723-4173'),
+     ('ashishg', 'p', '650-814-1478'),
+     ('dabo', 'p', '650-725-3897'),
+     ('dabo', 'p', '650-725-4671'),
+     ('hager', 'p', '410-516-5521'),
+     ('hager', 'p', '410-516-5553'),
+     ('hager', 'p', '410-516-8000'),
+     ('hanrahan', 'p', '650-723-0033'),
+     ('hanrahan', 'p', '650-723-8530'),
+     ('horowitz', 'p', '650-725-3707'),
+     ('horowitz', 'p', '650-725-6949'),
+     ('kosecka', 'p', '703-993-1710'),
+     ('kosecka', 'p', '703-993-1876'),
+     ('kunle', 'p', '650-723-1430'),
+     ('kunle', 'p', '650-725-3713'),
+     ('kunle', 'p', '650-725-6949'),
+     ('lam', 'p', '650-725-3714'),
+     ('lam', 'p', '650-725-6949'),
+     ('latombe', 'p', '650-721-6625'),
+     ('latombe', 'p', '650-723-0350'),
+     ('latombe', 'p', '650-723-4137'),
+     ('latombe', 'p', '650-725-1449'),
+     ('levoy', 'p', '650-723-0033'),
+     ('levoy', 'p', '650-724-6865'),
+     ('levoy', 'p', '650-725-3724'),
+     ('levoy', 'p', '650-725-4089'),
+     ('nass', 'p', '650-723-5499'),
+     ('nass', 'p', '650-725-2472'),
+     ('nick', 'p', '650-725-4727'),
+     ('ok', 'p', '650-723-9753'),
+     ('ok', 'p', '650-725-1449'),
+     ('rajeev', 'p', '650-723-4377'),
+     ('rajeev', 'p', '650-723-6045'),
+     ('rajeev', 'p', '650-725-4671'),
+     ('thm', 'p', '650-725-3383'),
+     ('thm', 'p', '650-725-3636'),
+     ('thm', 'p', '650-725-3938'),
+     ('widom', 'p', '650-723-0872'),
+     ('widom', 'p', '650-723-7690'),
+     ('widom', 'p', '650-725-2588'),
+     ('zelenski', 'p', '650-723-6092'),
+     ('zelenski', 'p', '650-725-8596'),
+     ('zm', 'p', '650-723-4364'),
+     ('zm', 'p', '650-725-4671')])
+False Positives (0): 
+set([])
+False Negatives (42): 
+set([('ashishg', 'e', 'ashishg@stanford.edu'),
+     ('ashishg', 'e', 'rozm@stanford.edu'),
+     ('dabo', 'e', 'dabo@cs.stanford.edu'),
+     ('dlwh', 'e', 'dlwh@stanford.edu'),
+     ('engler', 'e', 'engler@lcs.mit.edu'),
+     ('engler', 'e', 'engler@stanford.edu'),
+     ('eroberts', 'e', 'eroberts@cs.stanford.edu'),
+     ('eroberts', 'p', '650-723-3642'),
+     ('eroberts', 'p', '650-723-6092'),
+     ('fedkiw', 'e', 'fedkiw@cs.stanford.edu'),
+     ('hager', 'e', 'hager@cs.jhu.edu'),
+     ('hanrahan', 'e', 'hanrahan@cs.stanford.edu'),
+     ('jks', 'e', 'jks@robotics.stanford.edu'),
+     ('jurafsky', 'e', 'jurafsky@stanford.edu'),
+     ('jurafsky', 'p', '650-723-5666'),
+     ('kosecka', 'e', 'kosecka@cs.gmu.edu'),
+     ('kunle', 'e', 'darlene@csl.stanford.edu'),
+     ('kunle', 'e', 'kunle@ogun.stanford.edu'),
+     ('lam', 'e', 'lam@cs.stanford.edu'),
+     ('latombe', 'e', 'asandra@cs.stanford.edu'),
+     ('latombe', 'e', 'latombe@cs.stanford.edu'),
+     ('latombe', 'e', 'liliana@cs.stanford.edu'),
+     ('levoy', 'e', 'ada@graphics.stanford.edu'),
+     ('levoy', 'e', 'melissa@graphics.stanford.edu'),
+     ('nass', 'e', 'nass@stanford.edu'),
+     ('nick', 'e', 'nick.parlante@cs.stanford.edu'),
+     ('ouster', 'e', 'ouster@cs.stanford.edu'),
+     ('ouster', 'e', 'teresa.lynn@stanford.edu'),
+     ('pal', 'e', 'pal@cs.stanford.edu'),
+     ('pal', 'p', '650-725-9046'),
+     ('psyoung', 'e', 'patrick.young@stanford.edu'),
+     ('thm', 'e', 'pkrokel@stanford.edu'),
+     ('ullman', 'e', 'support@gradiance.com'),
+     ('ullman', 'e', 'ullman@cs.stanford.edu'),
+     ('ullman', 'p', '650-494-8016'),
+     ('ullman', 'p', '650-725-2588'),
+     ('ullman', 'p', '650-725-4802'),
+     ('vladlen', 'e', 'vladlen@stanford.edu'),
+     ('widom', 'e', 'siroker@cs.stanford.edu'),
+     ('widom', 'e', 'widom@cs.stanford.edu'),
+     ('zelenski', 'e', 'zelenski@cs.stanford.edu'),
+     ('zm', 'e', 'manna@cs.stanford.edu')])
+Summary: tp=45, fp=0, fn=42
+debug: ('kosecka', 'cs.gmu.edu', '', '', '', '', '', '')
+debug: ('kosecka', 'cs.gmu.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'lam at cs.stanford.edu', '.edu')
+debug: ('eroberts', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('eroberts', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford.edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford.edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford.edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford.edu', '', '', '', '', '', '')
+debug: ('ullman', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford.edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford.edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford.edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford.edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'jks at robotics;stanford;edu', ';edu')
+debug: ('', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('engler', 'lcs.mit.edu', '', '', '', '', '', '')
+debug: ('', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('', '', '', '', '', '', 'Server at cs.stanford.edu', '.edu')
+debug: ('', '', '', '', '', 'hager at cs dot jhu dot edu', '', '')
+debug: ('ashishg', 'stanford.edu', '', '', '', '', '', '')
+debug: ('rozm', 'stanford.edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('dabo', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'Server at infolab.stanford.edu', '.edu')
+debug: ('', '', '', '', '', '', 'Science at U.C', '.C')
+debug: ('', '', '', '', '', 'vladlen at stanford dot edu', '', '')
+debug: ('siroker', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('widom', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford.edu', '', '', '', '', '', '')
+True Positives (45): 
+set([('ashishg', 'p', '650-723-1614'),
+     ('ashishg', 'p', '650-723-4173'),
+     ('ashishg', 'p', '650-814-1478'),
+     ('dabo', 'p', '650-725-3897'),
+     ('dabo', 'p', '650-725-4671'),
+     ('hager', 'p', '410-516-5521'),
+     ('hager', 'p', '410-516-5553'),
+     ('hager', 'p', '410-516-8000'),
+     ('hanrahan', 'p', '650-723-0033'),
+     ('hanrahan', 'p', '650-723-8530'),
+     ('horowitz', 'p', '650-725-3707'),
+     ('horowitz', 'p', '650-725-6949'),
+     ('kosecka', 'p', '703-993-1710'),
+     ('kosecka', 'p', '703-993-1876'),
+     ('kunle', 'p', '650-723-1430'),
+     ('kunle', 'p', '650-725-3713'),
+     ('kunle', 'p', '650-725-6949'),
+     ('lam', 'p', '650-725-3714'),
+     ('lam', 'p', '650-725-6949'),
+     ('latombe', 'p', '650-721-6625'),
+     ('latombe', 'p', '650-723-0350'),
+     ('latombe', 'p', '650-723-4137'),
+     ('latombe', 'p', '650-725-1449'),
+     ('levoy', 'p', '650-723-0033'),
+     ('levoy', 'p', '650-724-6865'),
+     ('levoy', 'p', '650-725-3724'),
+     ('levoy', 'p', '650-725-4089'),
+     ('nass', 'p', '650-723-5499'),
+     ('nass', 'p', '650-725-2472'),
+     ('nick', 'p', '650-725-4727'),
+     ('ok', 'p', '650-723-9753'),
+     ('ok', 'p', '650-725-1449'),
+     ('rajeev', 'p', '650-723-4377'),
+     ('rajeev', 'p', '650-723-6045'),
+     ('rajeev', 'p', '650-725-4671'),
+     ('thm', 'p', '650-725-3383'),
+     ('thm', 'p', '650-725-3636'),
+     ('thm', 'p', '650-725-3938'),
+     ('widom', 'p', '650-723-0872'),
+     ('widom', 'p', '650-723-7690'),
+     ('widom', 'p', '650-725-2588'),
+     ('zelenski', 'p', '650-723-6092'),
+     ('zelenski', 'p', '650-725-8596'),
+     ('zm', 'p', '650-723-4364'),
+     ('zm', 'p', '650-725-4671')])
+False Positives (0): 
+set([])
+False Negatives (42): 
+set([('ashishg', 'e', 'ashishg@stanford.edu'),
+     ('ashishg', 'e', 'rozm@stanford.edu'),
+     ('dabo', 'e', 'dabo@cs.stanford.edu'),
+     ('dlwh', 'e', 'dlwh@stanford.edu'),
+     ('engler', 'e', 'engler@lcs.mit.edu'),
+     ('engler', 'e', 'engler@stanford.edu'),
+     ('eroberts', 'e', 'eroberts@cs.stanford.edu'),
+     ('eroberts', 'p', '650-723-3642'),
+     ('eroberts', 'p', '650-723-6092'),
+     ('fedkiw', 'e', 'fedkiw@cs.stanford.edu'),
+     ('hager', 'e', 'hager@cs.jhu.edu'),
+     ('hanrahan', 'e', 'hanrahan@cs.stanford.edu'),
+     ('jks', 'e', 'jks@robotics.stanford.edu'),
+     ('jurafsky', 'e', 'jurafsky@stanford.edu'),
+     ('jurafsky', 'p', '650-723-5666'),
+     ('kosecka', 'e', 'kosecka@cs.gmu.edu'),
+     ('kunle', 'e', 'darlene@csl.stanford.edu'),
+     ('kunle', 'e', 'kunle@ogun.stanford.edu'),
+     ('lam', 'e', 'lam@cs.stanford.edu'),
+     ('latombe', 'e', 'asandra@cs.stanford.edu'),
+     ('latombe', 'e', 'latombe@cs.stanford.edu'),
+     ('latombe', 'e', 'liliana@cs.stanford.edu'),
+     ('levoy', 'e', 'ada@graphics.stanford.edu'),
+     ('levoy', 'e', 'melissa@graphics.stanford.edu'),
+     ('nass', 'e', 'nass@stanford.edu'),
+     ('nick', 'e', 'nick.parlante@cs.stanford.edu'),
+     ('ouster', 'e', 'ouster@cs.stanford.edu'),
+     ('ouster', 'e', 'teresa.lynn@stanford.edu'),
+     ('pal', 'e', 'pal@cs.stanford.edu'),
+     ('pal', 'p', '650-725-9046'),
+     ('psyoung', 'e', 'patrick.young@stanford.edu'),
+     ('thm', 'e', 'pkrokel@stanford.edu'),
+     ('ullman', 'e', 'support@gradiance.com'),
+     ('ullman', 'e', 'ullman@cs.stanford.edu'),
+     ('ullman', 'p', '650-494-8016'),
+     ('ullman', 'p', '650-725-2588'),
+     ('ullman', 'p', '650-725-4802'),
+     ('vladlen', 'e', 'vladlen@stanford.edu'),
+     ('widom', 'e', 'siroker@cs.stanford.edu'),
+     ('widom', 'e', 'widom@cs.stanford.edu'),
+     ('zelenski', 'e', 'zelenski@cs.stanford.edu'),
+     ('zm', 'e', 'manna@cs.stanford.edu')])
+Summary: tp=45, fp=0, fn=42
+debug: ('kosecka', 'cs.gmu.edu', '', '', '', '', '', '')
+debug: ('kosecka', 'cs.gmu.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'lam at cs.stanford.edu', '.edu')
+debug: ('eroberts', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('eroberts', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford.edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford.edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford.edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford.edu', '', '', '', '', '', '')
+debug: ('ullman', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford.edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford.edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford.edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford.edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'jks at robotics;stanford;edu', ';edu')
+debug: ('', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('engler', 'lcs.mit.edu.', '', '', '', '', '', '')
+debug: ('', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('', '', '', '', '', '', 'Server at cs.stanford.edu', '.edu')
+debug: ('', '', '', '', '', 'hager at cs dot jhu dot edu', '', '')
+debug: ('ashishg', 'stanford.edu', '', '', '', '', '', '')
+debug: ('rozm', 'stanford.edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('dabo', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'Server at infolab.stanford.edu', '.edu')
+debug: ('', '', '', '', '', '', 'Science at U.C', '.C')
+debug: ('', '', '', '', '', 'vladlen at stanford dot edu', '', '')
+debug: ('siroker', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('widom', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford.edu', '', '', '', '', '', '')
+True Positives (45): 
+set([('ashishg', 'p', '650-723-1614'),
+     ('ashishg', 'p', '650-723-4173'),
+     ('ashishg', 'p', '650-814-1478'),
+     ('dabo', 'p', '650-725-3897'),
+     ('dabo', 'p', '650-725-4671'),
+     ('hager', 'p', '410-516-5521'),
+     ('hager', 'p', '410-516-5553'),
+     ('hager', 'p', '410-516-8000'),
+     ('hanrahan', 'p', '650-723-0033'),
+     ('hanrahan', 'p', '650-723-8530'),
+     ('horowitz', 'p', '650-725-3707'),
+     ('horowitz', 'p', '650-725-6949'),
+     ('kosecka', 'p', '703-993-1710'),
+     ('kosecka', 'p', '703-993-1876'),
+     ('kunle', 'p', '650-723-1430'),
+     ('kunle', 'p', '650-725-3713'),
+     ('kunle', 'p', '650-725-6949'),
+     ('lam', 'p', '650-725-3714'),
+     ('lam', 'p', '650-725-6949'),
+     ('latombe', 'p', '650-721-6625'),
+     ('latombe', 'p', '650-723-0350'),
+     ('latombe', 'p', '650-723-4137'),
+     ('latombe', 'p', '650-725-1449'),
+     ('levoy', 'p', '650-723-0033'),
+     ('levoy', 'p', '650-724-6865'),
+     ('levoy', 'p', '650-725-3724'),
+     ('levoy', 'p', '650-725-4089'),
+     ('nass', 'p', '650-723-5499'),
+     ('nass', 'p', '650-725-2472'),
+     ('nick', 'p', '650-725-4727'),
+     ('ok', 'p', '650-723-9753'),
+     ('ok', 'p', '650-725-1449'),
+     ('rajeev', 'p', '650-723-4377'),
+     ('rajeev', 'p', '650-723-6045'),
+     ('rajeev', 'p', '650-725-4671'),
+     ('thm', 'p', '650-725-3383'),
+     ('thm', 'p', '650-725-3636'),
+     ('thm', 'p', '650-725-3938'),
+     ('widom', 'p', '650-723-0872'),
+     ('widom', 'p', '650-723-7690'),
+     ('widom', 'p', '650-725-2588'),
+     ('zelenski', 'p', '650-723-6092'),
+     ('zelenski', 'p', '650-725-8596'),
+     ('zm', 'p', '650-723-4364'),
+     ('zm', 'p', '650-725-4671')])
+False Positives (0): 
+set([])
+False Negatives (42): 
+set([('ashishg', 'e', 'ashishg@stanford.edu'),
+     ('ashishg', 'e', 'rozm@stanford.edu'),
+     ('dabo', 'e', 'dabo@cs.stanford.edu'),
+     ('dlwh', 'e', 'dlwh@stanford.edu'),
+     ('engler', 'e', 'engler@lcs.mit.edu'),
+     ('engler', 'e', 'engler@stanford.edu'),
+     ('eroberts', 'e', 'eroberts@cs.stanford.edu'),
+     ('eroberts', 'p', '650-723-3642'),
+     ('eroberts', 'p', '650-723-6092'),
+     ('fedkiw', 'e', 'fedkiw@cs.stanford.edu'),
+     ('hager', 'e', 'hager@cs.jhu.edu'),
+     ('hanrahan', 'e', 'hanrahan@cs.stanford.edu'),
+     ('jks', 'e', 'jks@robotics.stanford.edu'),
+     ('jurafsky', 'e', 'jurafsky@stanford.edu'),
+     ('jurafsky', 'p', '650-723-5666'),
+     ('kosecka', 'e', 'kosecka@cs.gmu.edu'),
+     ('kunle', 'e', 'darlene@csl.stanford.edu'),
+     ('kunle', 'e', 'kunle@ogun.stanford.edu'),
+     ('lam', 'e', 'lam@cs.stanford.edu'),
+     ('latombe', 'e', 'asandra@cs.stanford.edu'),
+     ('latombe', 'e', 'latombe@cs.stanford.edu'),
+     ('latombe', 'e', 'liliana@cs.stanford.edu'),
+     ('levoy', 'e', 'ada@graphics.stanford.edu'),
+     ('levoy', 'e', 'melissa@graphics.stanford.edu'),
+     ('nass', 'e', 'nass@stanford.edu'),
+     ('nick', 'e', 'nick.parlante@cs.stanford.edu'),
+     ('ouster', 'e', 'ouster@cs.stanford.edu'),
+     ('ouster', 'e', 'teresa.lynn@stanford.edu'),
+     ('pal', 'e', 'pal@cs.stanford.edu'),
+     ('pal', 'p', '650-725-9046'),
+     ('psyoung', 'e', 'patrick.young@stanford.edu'),
+     ('thm', 'e', 'pkrokel@stanford.edu'),
+     ('ullman', 'e', 'support@gradiance.com'),
+     ('ullman', 'e', 'ullman@cs.stanford.edu'),
+     ('ullman', 'p', '650-494-8016'),
+     ('ullman', 'p', '650-725-2588'),
+     ('ullman', 'p', '650-725-4802'),
+     ('vladlen', 'e', 'vladlen@stanford.edu'),
+     ('widom', 'e', 'siroker@cs.stanford.edu'),
+     ('widom', 'e', 'widom@cs.stanford.edu'),
+     ('zelenski', 'e', 'zelenski@cs.stanford.edu'),
+     ('zm', 'e', 'manna@cs.stanford.edu')])
+Summary: tp=45, fp=0, fn=42
+debug: ('kosecka', 'cs.gmu.edu', '', '', '', '', '', '')
+debug: ('kosecka', 'cs.gmu.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'lam at cs.stanford.edu', '.edu')
+debug: ('eroberts', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('eroberts', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford.edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford.edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford.edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford.edu', '', '', '', '', '', '')
+debug: ('ullman', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford.edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford.edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford.edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford.edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'jks at robotics;stanford;edu', ';edu')
+debug: ('', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('engler', 'lcs.mit.edu.', '', '', '', '', '', '')
+debug: ('', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('', '', '', '', '', '', 'Server at cs.stanford.edu', '.edu')
+debug: ('', '', '', '', '', 'hager at cs dot jhu dot edu', '', '')
+debug: ('ashishg', 'stanford.edu', '', '', '', '', '', '')
+debug: ('rozm', 'stanford.edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('dabo', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'Server at infolab.stanford.edu', '.edu')
+debug: ('', '', '', '', '', '', 'Science at U.C', '.C')
+debug: ('', '', '', '', '', 'vladlen at stanford dot edu', '', '')
+debug: ('siroker', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('widom', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford.edu', '', '', '', '', '', '')
+True Positives (45): 
+set([('ashishg', 'p', '650-723-1614'),
+     ('ashishg', 'p', '650-723-4173'),
+     ('ashishg', 'p', '650-814-1478'),
+     ('dabo', 'p', '650-725-3897'),
+     ('dabo', 'p', '650-725-4671'),
+     ('hager', 'p', '410-516-5521'),
+     ('hager', 'p', '410-516-5553'),
+     ('hager', 'p', '410-516-8000'),
+     ('hanrahan', 'p', '650-723-0033'),
+     ('hanrahan', 'p', '650-723-8530'),
+     ('horowitz', 'p', '650-725-3707'),
+     ('horowitz', 'p', '650-725-6949'),
+     ('kosecka', 'p', '703-993-1710'),
+     ('kosecka', 'p', '703-993-1876'),
+     ('kunle', 'p', '650-723-1430'),
+     ('kunle', 'p', '650-725-3713'),
+     ('kunle', 'p', '650-725-6949'),
+     ('lam', 'p', '650-725-3714'),
+     ('lam', 'p', '650-725-6949'),
+     ('latombe', 'p', '650-721-6625'),
+     ('latombe', 'p', '650-723-0350'),
+     ('latombe', 'p', '650-723-4137'),
+     ('latombe', 'p', '650-725-1449'),
+     ('levoy', 'p', '650-723-0033'),
+     ('levoy', 'p', '650-724-6865'),
+     ('levoy', 'p', '650-725-3724'),
+     ('levoy', 'p', '650-725-4089'),
+     ('nass', 'p', '650-723-5499'),
+     ('nass', 'p', '650-725-2472'),
+     ('nick', 'p', '650-725-4727'),
+     ('ok', 'p', '650-723-9753'),
+     ('ok', 'p', '650-725-1449'),
+     ('rajeev', 'p', '650-723-4377'),
+     ('rajeev', 'p', '650-723-6045'),
+     ('rajeev', 'p', '650-725-4671'),
+     ('thm', 'p', '650-725-3383'),
+     ('thm', 'p', '650-725-3636'),
+     ('thm', 'p', '650-725-3938'),
+     ('widom', 'p', '650-723-0872'),
+     ('widom', 'p', '650-723-7690'),
+     ('widom', 'p', '650-725-2588'),
+     ('zelenski', 'p', '650-723-6092'),
+     ('zelenski', 'p', '650-725-8596'),
+     ('zm', 'p', '650-723-4364'),
+     ('zm', 'p', '650-725-4671')])
+False Positives (0): 
+set([])
+False Negatives (42): 
+set([('ashishg', 'e', 'ashishg@stanford.edu'),
+     ('ashishg', 'e', 'rozm@stanford.edu'),
+     ('dabo', 'e', 'dabo@cs.stanford.edu'),
+     ('dlwh', 'e', 'dlwh@stanford.edu'),
+     ('engler', 'e', 'engler@lcs.mit.edu'),
+     ('engler', 'e', 'engler@stanford.edu'),
+     ('eroberts', 'e', 'eroberts@cs.stanford.edu'),
+     ('eroberts', 'p', '650-723-3642'),
+     ('eroberts', 'p', '650-723-6092'),
+     ('fedkiw', 'e', 'fedkiw@cs.stanford.edu'),
+     ('hager', 'e', 'hager@cs.jhu.edu'),
+     ('hanrahan', 'e', 'hanrahan@cs.stanford.edu'),
+     ('jks', 'e', 'jks@robotics.stanford.edu'),
+     ('jurafsky', 'e', 'jurafsky@stanford.edu'),
+     ('jurafsky', 'p', '650-723-5666'),
+     ('kosecka', 'e', 'kosecka@cs.gmu.edu'),
+     ('kunle', 'e', 'darlene@csl.stanford.edu'),
+     ('kunle', 'e', 'kunle@ogun.stanford.edu'),
+     ('lam', 'e', 'lam@cs.stanford.edu'),
+     ('latombe', 'e', 'asandra@cs.stanford.edu'),
+     ('latombe', 'e', 'latombe@cs.stanford.edu'),
+     ('latombe', 'e', 'liliana@cs.stanford.edu'),
+     ('levoy', 'e', 'ada@graphics.stanford.edu'),
+     ('levoy', 'e', 'melissa@graphics.stanford.edu'),
+     ('nass', 'e', 'nass@stanford.edu'),
+     ('nick', 'e', 'nick.parlante@cs.stanford.edu'),
+     ('ouster', 'e', 'ouster@cs.stanford.edu'),
+     ('ouster', 'e', 'teresa.lynn@stanford.edu'),
+     ('pal', 'e', 'pal@cs.stanford.edu'),
+     ('pal', 'p', '650-725-9046'),
+     ('psyoung', 'e', 'patrick.young@stanford.edu'),
+     ('thm', 'e', 'pkrokel@stanford.edu'),
+     ('ullman', 'e', 'support@gradiance.com'),
+     ('ullman', 'e', 'ullman@cs.stanford.edu'),
+     ('ullman', 'p', '650-494-8016'),
+     ('ullman', 'p', '650-725-2588'),
+     ('ullman', 'p', '650-725-4802'),
+     ('vladlen', 'e', 'vladlen@stanford.edu'),
+     ('widom', 'e', 'siroker@cs.stanford.edu'),
+     ('widom', 'e', 'widom@cs.stanford.edu'),
+     ('zelenski', 'e', 'zelenski@cs.stanford.edu'),
+     ('zm', 'e', 'manna@cs.stanford.edu')])
+Summary: tp=45, fp=0, fn=42
+debug: ('kosecka', 'cs.gmu.edu', '', '', '', '', '', '')
+debug: ('kosecka', 'cs.gmu.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'lam at cs.stanford.edu', '.edu')
+debug: ('eroberts', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('eroberts', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford.edu', '', '', '', '', '', '')
+debug: ('kunle', 'ogun.stanford.edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford.edu', '', '', '', '', '', '')
+debug: ('darlene', 'csl.stanford.edu', '', '', '', '', '', '')
+debug: ('ullman', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford.edu', '', '', '', '', '', '')
+debug: ('pkrokel', 'Stanford.edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford.edu', '', '', '', '', '', '')
+debug: ('patrick.young', 'stanford.edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('latombe', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('asandra', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('liliana', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('zelenski', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('fedkiw', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'jks at robotics;stanford;edu', ';edu')
+debug: ('', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('engler', 'lcs.mit.edu.', '', '', '', '', '', '')
+debug: ('', '', 'engler', 'stanford', 'edu', '', '', '')
+debug: ('', '', '', '', '', '', 'Server at cs.stanford.edu', '.edu')
+debug: ('', '', '', '', '', 'hager at cs dot jhu dot edu', '', '')
+debug: ('ashishg', 'stanford.edu', '', '', '', '', '', '')
+debug: ('rozm', 'stanford.edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('manna', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('dabo', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('hanrahan', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('nass', 'stanford.edu', '', '', '', '', '', '')
+debug: ('', '', '', '', '', '', 'Server at infolab.stanford.edu', '.edu')
+debug: ('', '', '', '', '', '', 'Science at U.C', '.C')
+debug: ('', '', '', '', '', 'vladlen at stanford dot edu', '', '')
+debug: ('siroker', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('widom', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford.edu', '', '', '', '', '', '')
+debug: ('nick.parlante', 'cs.stanford.edu', '', '', '', '', '', '')
+True Positives (45): 
+set([('ashishg', 'p', '650-723-1614'),
+     ('ashishg', 'p', '650-723-4173'),
+     ('ashishg', 'p', '650-814-1478'),
+     ('dabo', 'p', '650-725-3897'),
+     ('dabo', 'p', '650-725-4671'),
+     ('hager', 'p', '410-516-5521'),
+     ('hager', 'p', '410-516-5553'),
+     ('hager', 'p', '410-516-8000'),
+     ('hanrahan', 'p', '650-723-0033'),
+     ('hanrahan', 'p', '650-723-8530'),
+     ('horowitz', 'p', '650-725-3707'),
+     ('horowitz', 'p', '650-725-6949'),
+     ('kosecka', 'p', '703-993-1710'),
+     ('kosecka', 'p', '703-993-1876'),
+     ('kunle', 'p', '650-723-1430'),
+     ('kunle', 'p', '650-725-3713'),
+     ('kunle', 'p', '650-725-6949'),
+     ('lam', 'p', '650-725-3714'),
+     ('lam', 'p', '650-725-6949'),
+     ('latombe', 'p', '650-721-6625'),
+     ('latombe', 'p', '650-723-0350'),
+     ('latombe', 'p', '650-723-4137'),
+     ('latombe', 'p', '650-725-1449'),
+     ('levoy', 'p', '650-723-0033'),
+     ('levoy', 'p', '650-724-6865'),
+     ('levoy', 'p', '650-725-3724'),
+     ('levoy', 'p', '650-725-4089'),
+     ('nass', 'p', '650-723-5499'),
+     ('nass', 'p', '650-725-2472'),
+     ('nick', 'p', '650-725-4727'),
+     ('ok', 'p', '650-723-9753'),
+     ('ok', 'p', '650-725-1449'),
+     ('rajeev', 'p', '650-723-4377'),
+     ('rajeev', 'p', '650-723-6045'),
+     ('rajeev', 'p', '650-725-4671'),
+     ('thm', 'p', '650-725-3383'),
+     ('thm', 'p', '650-725-3636'),
+     ('thm', 'p', '650-725-3938'),
+     ('widom', 'p', '650-723-0872'),
+     ('widom', 'p', '650-723-7690'),
+     ('widom', 'p', '650-725-2588'),
+     ('zelenski', 'p', '650-723-6092'),
+     ('zelenski', 'p', '650-725-8596'),
+     ('zm', 'p', '650-723-4364'),
+     ('zm', 'p', '650-725-4671')])
+False Positives (0): 
+set([])
+False Negatives (42): 
+set([('ashishg', 'e', 'ashishg@stanford.edu'),
+     ('ashishg', 'e', 'rozm@stanford.edu'),
+     ('dabo', 'e', 'dabo@cs.stanford.edu'),
+     ('dlwh', 'e', 'dlwh@stanford.edu'),
+     ('engler', 'e', 'engler@lcs.mit.edu'),
+     ('engler', 'e', 'engler@stanford.edu'),
+     ('eroberts', 'e', 'eroberts@cs.stanford.edu'),
+     ('eroberts', 'p', '650-723-3642'),
+     ('eroberts', 'p', '650-723-6092'),
+     ('fedkiw', 'e', 'fedkiw@cs.stanford.edu'),
+     ('hager', 'e', 'hager@cs.jhu.edu'),
+     ('hanrahan', 'e', 'hanrahan@cs.stanford.edu'),
+     ('jks', 'e', 'jks@robotics.stanford.edu'),
+     ('jurafsky', 'e', 'jurafsky@stanford.edu'),
+     ('jurafsky', 'p', '650-723-5666'),
+     ('kosecka', 'e', 'kosecka@cs.gmu.edu'),
+     ('kunle', 'e', 'darlene@csl.stanford.edu'),
+     ('kunle', 'e', 'kunle@ogun.stanford.edu'),
+     ('lam', 'e', 'lam@cs.stanford.edu'),
+     ('latombe', 'e', 'asandra@cs.stanford.edu'),
+     ('latombe', 'e', 'latombe@cs.stanford.edu'),
+     ('latombe', 'e', 'liliana@cs.stanford.edu'),
+     ('levoy', 'e', 'ada@graphics.stanford.edu'),
+     ('levoy', 'e', 'melissa@graphics.stanford.edu'),
+     ('nass', 'e', 'nass@stanford.edu'),
+     ('nick', 'e', 'nick.parlante@cs.stanford.edu'),
+     ('ouster', 'e', 'ouster@cs.stanford.edu'),
+     ('ouster', 'e', 'teresa.lynn@stanford.edu'),
+     ('pal', 'e', 'pal@cs.stanford.edu'),
+     ('pal', 'p', '650-725-9046'),
+     ('psyoung', 'e', 'patrick.young@stanford.edu'),
+     ('thm', 'e', 'pkrokel@stanford.edu'),
+     ('ullman', 'e', 'support@gradiance.com'),
+     ('ullman', 'e', 'ullman@cs.stanford.edu'),
+     ('ullman', 'p', '650-494-8016'),
+     ('ullman', 'p', '650-725-2588'),
+     ('ullman', 'p', '650-725-4802'),
+     ('vladlen', 'e', 'vladlen@stanford.edu'),
+     ('widom', 'e', 'siroker@cs.stanford.edu'),
+     ('widom', 'e', 'widom@cs.stanford.edu'),
+     ('zelenski', 'e', 'zelenski@cs.stanford.edu'),
+     ('zm', 'e', 'manna@cs.stanford.edu')])
+Summary: tp=45, fp=0, fn=42

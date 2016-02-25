@@ -1,0 +1,5 @@
+1: Set of all alphabetic strings: \w*
+2: Set of all lowercase alphabetic strings ending in a b: a[a-z]*b
+3: Strings with two consecutive words: (\w+)\s+\1
+4: Strings which begin and end with integers: \d+[a-zA-Z]+\d+
+5: Strings containing words grotto and raven: (.*grotto.*raven|.*raven.*grotto)
