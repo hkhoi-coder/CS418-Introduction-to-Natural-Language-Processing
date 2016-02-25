@@ -23,7 +23,7 @@ email_pattern5 = r'([\w\.]+) \(followed by ("|&ldquo;)@(\w+(\.\w+)+)'
 email_pattern6 = r'(\w+) at ([\w ]+) stanford edu'
 
 # (xxx)xxx-xxxx
-phone_patter0 = r'\((\d{3})\)(\d{3})-(\d{4})'
+phone_patter0 = r'\((\d{3})\) ?(\d{3})-(\d{4})'
 
 test = r'\(\d{3}\)\d{3}-\d{4}'
 
