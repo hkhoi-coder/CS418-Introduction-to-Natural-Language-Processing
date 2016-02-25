@@ -23,7 +23,9 @@ email_pattern5 = r'([\w\.]+) \(followed by ("|&ldquo;)@(\w+(\.\w+)+)'
 email_pattern6 = r'(\w+) at ([\w ]+) stanford edu'
 
 # (xxx)xxx-xxxx
+# x xxx xxx xxxx
 phone_patter0 = r'\b\(?(\d{3})\)? ?-?(\d{3})-(\d{4})'
+phone_patter1 = r'\+\d+ ?-?(\d{3}) ?-?(\d{3}) ?-?(\d{4})'
 
 test = r'\(\d{3}\)\d{3}-\d{4}'
 
@@ -62,6 +64,7 @@ def process_file(name, f):
         email_matches6 = re.findall(email_pattern6, line)
 
         phone_matches0 = re.findall(phone_patter0, line)
+        phone_matches1 = re.findall(phone_patter1, line)
 
         test_match = re.findall(test, line)
 
@@ -94,6 +97,9 @@ def process_file(name, f):
             email = '%s@%s.stanford.edu' %m[0:2]
             res.append((name, 'e', email))
         for m in phone_matches0:
+            phone = '%s-%s-%s' % m
+            res.append((name, 'p', phone))
+        for m in phone_matches1:
             phone = '%s-%s-%s' % m
             res.append((name, 'p', phone))
 
