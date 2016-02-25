@@ -22,9 +22,10 @@ email_pattern4 = r'(\w(-\w|-\.)+-@-\w(-\w)+-.(-\w)+)'
 email_pattern5 = r'([\w\.]+) \(followed by ("|&ldquo;)@(\w+(\.\w+)+)'
 email_pattern6 = r'(\w+) at ([\w ]+) stanford edu'
 
-test = r'(\w+) at ([\w ]+) stanford edu'
+# (xxx)xxx-xxxx
+phone_patter0 = r'\((\d{3})\)(\d{3})-(\d{4})'
 
-phone_pattern = r'\W([a-z]+(( dot |\.|;| dt )\w+)* at \w+(( dot |\.|;| dt )\w+)+)'
+test = r'\(\d{3}\)\d{3}-\d{4}'
 
 """ 
 TODO
@@ -59,6 +60,9 @@ def process_file(name, f):
         email_matches4 = re.findall(email_pattern4, line)
         email_matches5 = re.findall(email_pattern5, line)
         email_matches6 = re.findall(email_pattern6, line)
+
+        phone_matches0 = re.findall(phone_patter0, line)
+
         test_match = re.findall(test, line)
 
         # Pattern 0:
@@ -86,14 +90,16 @@ def process_file(name, f):
             email = '%s@%s' %(m[0], m[2])
             res.append((name, 'e', email))
         # Pattern 6:
-        for m in test_match:
+        for m in email_matches6:
             email = '%s@%s.stanford.edu' %m[0:2]
             res.append((name, 'e', email))
+        for m in phone_matches0:
+            phone = '%s-%s-%s' % m
+            res.append((name, 'p', phone))
 
         # Testing:
         # for m in test_match:
         #     print 'DEBUG:', m
-        # phone_matches = re.findall(phone_pattern, line)
     return res
 """
 You should not need to edit this function, nor should you alter
