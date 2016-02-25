@@ -11,7 +11,8 @@ import pprint
 # hkhoi at outlook dot com|hkhoi at outlook.com|hkhoiat outlook;com
 # ('outlook.com', 'hkhoi')
 # w-t-f-i-s-t-h-i-s-s-h-i-t-@-s-h-i-t-.-c-o-m
- #ouster (followed by &ldquo;@cs.stanford.edu&rdquo;)|ouster (followed by "@cs.stanford.edu")
+# ouster (followed by &ldquo;@cs.stanford.edu&rdquo;)|ouster (followed by "@cs.stanford.edu")
+# hkhoi at outlook com
 
 email_pattern0 = r'([\w\.]+) ?(@|&#x40;) ?(\w+(\.\w+)+)'
 email_pattern1 = r'([\w\.]+) WHERE (\w+) DOM (\w+)'
@@ -19,8 +20,9 @@ email_pattern2 = r'\W([a-z0-9]+(( dot |\.|;| dt )\w+)* at \w+(( dot |\.|;| dt )\
 email_pattern3 = r'\(\'([\w\.]+)\',\'([\w\.]+)\'\)'
 email_pattern4 = r'(\w(-\w|-\.)+-@-\w(-\w)+-.(-\w)+)'
 email_pattern5 = r'([\w\.]+) \(followed by ("|&ldquo;)@(\w+(\.\w+)+)'
+email_pattern6 = r'(\w+) at ([\w ]+) stanford edu'
 
-test = r'\W([a-z0-9]+(( dot |\.|;| dt )\w+)* at \w+(( dot |\.|;| dt )\w+)+)'
+test = r'(\w+) at ([\w ]+) stanford edu'
 
 phone_pattern = r'\W([a-z]+(( dot |\.|;| dt )\w+)* at \w+(( dot |\.|;| dt )\w+)+)'
 
@@ -56,6 +58,7 @@ def process_file(name, f):
         email_matches3 = re.findall(email_pattern3, line)
         email_matches4 = re.findall(email_pattern4, line)
         email_matches5 = re.findall(email_pattern5, line)
+        email_matches6 = re.findall(email_pattern6, line)
         test_match = re.findall(test, line)
 
         # Pattern 0:
@@ -82,10 +85,15 @@ def process_file(name, f):
         for m in email_matches5:
             email = '%s@%s' %(m[0], m[2])
             res.append((name, 'e', email))
-        # Testing:
+        # Pattern 6:
         for m in test_match:
-            print 'DEBUG:', m
-        phone_matches = re.findall(phone_pattern, line)
+            email = '%s@%s.stanford.edu' %m[0:2]
+            res.append((name, 'e', email))
+
+        # Testing:
+        # for m in test_match:
+        #     print 'DEBUG:', m
+        # phone_matches = re.findall(phone_pattern, line)
     return res
 """
 You should not need to edit this function, nor should you alter
