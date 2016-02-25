@@ -15,12 +15,14 @@ import pprint
 
 email_pattern0 = r'([\w\.]+) ?(@|&#x40;) ?(\w+(\.\w+)+)'
 email_pattern1 = r'([\w\.]+) WHERE (\w+) DOM (\w+)'
-email_pattern2 = r'\W([a-z( dot )]+ at \w+(( dot |\.|;)\w+)+)'
+email_pattern2 = r'\W([a-z0-9]+(( dot |\.|;| dt )\w+)* at \w+(( dot |\.|;| dt )\w+)+)'
 email_pattern3 = r'\(\'([\w\.]+)\',\'([\w\.]+)\'\)'
 email_pattern4 = r'(\w(-\w|-\.)+-@-\w(-\w)+-.(-\w)+)'
 email_pattern5 = r'([\w\.]+) \(followed by ("|&ldquo;)@(\w+(\.\w+)+)'
 
-phone_pattern = r'\D\(?(\d{3})\)?-? ?(\d{3})-(\d{4})'
+test = r'\W([a-z0-9]+(( dot |\.|;| dt )\w+)* at \w+(( dot |\.|;| dt )\w+)+)'
+
+phone_pattern = r'\W([a-z]+(( dot |\.|;| dt )\w+)* at \w+(( dot |\.|;| dt )\w+)+)'
 
 """ 
 TODO
@@ -54,6 +56,7 @@ def process_file(name, f):
         email_matches3 = re.findall(email_pattern3, line)
         email_matches4 = re.findall(email_pattern4, line)
         email_matches5 = re.findall(email_pattern5, line)
+        test_match = re.findall(test, line)
 
         # Pattern 0:
         for m in email_matches0:
@@ -65,7 +68,7 @@ def process_file(name, f):
             res.append((name, 'e', email))
         # Pattern 2:
         for m in email_matches2:
-            email = m[0].replace('at', '@').replace('dot', '.').replace(';', '.').replace(' ', '')
+            email = m[0].replace('at', '@').replace('dot', '.').replace('dt','.').replace(';', '.').replace(' ', '')
             res.append((name, 'e', email))
         # Pattern 3:
         for m in email_matches3:
@@ -79,6 +82,9 @@ def process_file(name, f):
         for m in email_matches5:
             email = '%s@%s' %(m[0], m[2])
             res.append((name, 'e', email))
+        # Testing:
+        for m in test_match:
+            print 'DEBUG:', m
         phone_matches = re.findall(phone_pattern, line)
     return res
 """
