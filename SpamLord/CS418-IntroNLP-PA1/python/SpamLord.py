@@ -9,7 +9,7 @@ import pprint
 # hkhoi@outlook.com
 email_pattern0 = r'([\w\.]+) ?@ ?(\w+(\.\w+)+)'     # hkhoi@outlook.com
 email_pattern1 = r'(\w+) WHERE (\w+) DOM (\w+)'     # hkhoi WHERE outlook DOM edu
-email_pattern2 = r'\W([a-z]+ at \w+(( dot |\.)\w+)+)'         # hkhoi at outlook dot com
+email_pattern2 = r'\W([a-z]+ at \w+(( dot |\.|;)\w+)+)'         # hkhoi at outlook dot com|hkhoi at outlook.com|hkhoiat outlook;com
 email_pattern3 = r'\(\'([\w\.]+)\',\'([\w\.]+)\'\)' #('outlook.com', 'hkhoi')
 # email_pattern4 = r'([a-z]+ at \w+(\.\w+)+)'
 
@@ -55,7 +55,7 @@ def process_file(name, f):
             res.append((name, 'e', email))
         # Pattern 2:
         for m in email_matches2:
-            email = m[0].replace('at', '@').replace('dot', '.').replace(' ', '')
+            email = m[0].replace('at', '@').replace('dot', '.').replace(';', '.').replace(' ', '')
             res.append((name, 'e', email))
         # Pattern 3:
         for m in email_matches3:
